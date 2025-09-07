@@ -15,7 +15,7 @@ qcalc is a lightweight command-line interface that helps you set up, run, analyz
   - `analysis` — extract properties from outputs (energies, ΔE, HOMO/LUMO, magnetization, relaxation info, etc.)
   - `plot` — quick plots of analysis tables
 
-\*Always validate basis settings for production runs.
+Always validate basis settings for production runs.
 
 ## Installation
 
