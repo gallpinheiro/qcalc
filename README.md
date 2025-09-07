@@ -6,7 +6,7 @@ qcalc is a lightweight command-line interface that helps you set up, run, analyz
 
 ## Features
 
-- **Command-line interface** (`qcalc`) for end-to-end workflows:
+**Command-line interface** (`qcalc`) for end-to-end workflows:
   - `run` — run calculations (wrapper around your execution environment)
   - `move` — collect and move outputs to a destination folder
   - `convert` — XYZ ⇄ `geometry.in`
@@ -19,6 +19,14 @@ Always validate basis settings for production runs.
 
 ## Installation
 
+You can install `qcalc` directly from the GitHub repository using pip:
+
 ```bash
 pip install git+https://github.com/gallpinheiro/qcalc.git
+```
+
+For details on any command, use the help flag:
+
+```bash
+qcalc <command> -h
 ```
